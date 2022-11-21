@@ -1,0 +1,47 @@
+.animation{
+    background-color: skyblue;
+    height: 150px;
+    width: 150px;
+    border-radius: 100;
+    position: absolute;
+    text-align: center;
+    
+
+    animation-name: its_me;
+    animation-duration:5s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+    
+}
+
+@keyframes its_me{
+    0%{
+        left: 0px;
+        top: 0px;
+       background-image: linear-gradient(pink , hotpink);
+        
+
+}
+25%{
+    left: 100px;
+    top: 0px;
+   background-image: linear-gradient(crimson,brown);
+    
+
+}
+50%{
+    left: 100px;
+    bottom: 100px;
+    background-image: linear-gradient(red, green);
+}
+75%{
+    top: 100px;
+    left: 0px;
+    background-image: linear-gradient(cyan,teal);
+}
+100%{
+    left: 0px;
+    top: 0px;
+    background-image: linear-gradient(grey,black);
+}
+}

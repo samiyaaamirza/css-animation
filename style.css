@@ -1,0 +1,130 @@
+body{
+    margin: 0%;
+    background-color: rgb(231, 227, 220);
+    
+}
+
+.div1{
+    background-color: skyblue;
+    height: 100px;
+    width: 200px;
+    border-radius: 50;
+    position: absolute;
+    text-align: center;
+    
+
+    animation-name: its_me;
+    animation-duration:3s;
+    animation-delay: 5s;
+    animation-iteration-count: infinite;
+    
+}
+
+@keyframes its_me{
+    0%{
+        left: 50px;
+        top: 0;
+       background-image: linear-gradient(yellow,orange);
+           transform: rotate(0.5turn);
+    }
+    5%{
+        left: 50px;
+        top: 30px;
+       
+       background-image: linear-gradient(pink,green);
+
+    }
+    10%{
+        left: 100px;
+        top: 30px;
+        background-image: linear-gradient(red,cyan);
+
+    }
+    15%{
+      left: 100px;
+      top: 60px;
+      background-image: linear-gradient(pink,green);
+    }
+    20%{
+        left: 150px;
+        top: 60px;
+        background-image: linear-gradient(red,cyan);
+    }
+    25%{
+        left: 150px;
+        top: 90px;
+        background-image: linear-gradient(pink,green);
+
+    }
+    30%{
+        left: 200px;
+        top: 90px;
+        background-image: linear-gradient(red,cyan);
+    }
+    35%{
+        left: 200px;
+        top: 120px;
+        background-image: linear-gradient(pink,green);
+    }
+    40%{
+        left: 250px;
+        top: 120px;
+        background-image: linear-gradient(red,cyan);
+    }
+    45%{
+        left: 250px;
+        top: 150px;
+        background-image: linear-gradient(pink,green);
+    }
+    50%{
+        left: 300px;
+        top: 150px;
+        background-image: linear-gradient(red,cyan);
+    }
+    55%{
+        left: 300px;
+        top: 180px;
+        background-image: linear-gradient(pink,green);
+    }
+    60%{
+        left: 350px;
+        top: 180px;
+        background-image: linear-gradient(red,cyan);
+    }
+    65%{
+        left: 350px;
+        top: 180px;
+        background-image: linear-gradient(pink,green);
+    }
+    70%{
+        left: 400px;
+        top: 180px;
+        background-image: linear-gradient(red,cyan);
+    }
+    75%{
+        left: 400px;
+        top: 180px;
+        background-image: linear-gradient(pink,green);
+    }
+    80%{
+        left: 450px;
+        top: 180px;
+        background-image: linear-gradient(red,cyan);
+    }
+    85%{
+        left: 450px;
+        top: 180px;
+        background-image: linear-gradient(pink,green);
+    }
+    90%{
+        left: 500px;
+        top: 180px;
+        background-image: linear-gradient(red,cyan);
+    }
+    95%{
+        left: 500px;
+        top: 180px;
+        background-image: linear-gradient(red,cyan);
+    }
+    
+}

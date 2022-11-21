@@ -1,0 +1,29 @@
+body{
+    /* margin: 0%; */
+    /* background-color: orange; */
+    
+}
+.animation{
+    background-color:black;
+    height: 100pxx;
+    width: 200px;
+    border-radius: 50;
+    position: absolute;
+   
+
+animation-name: its_me;
+animation-duration: 10s;
+animation-delay: 5s;
+animation-iteration-count: infinite;
+}
+@keyframes its_me{
+    0%{
+        left: 50px;
+        top: 0;
+        background-color: blueviolet;
+        color: aquamarine;
+    }
+    25%{
+
+    }
+}
